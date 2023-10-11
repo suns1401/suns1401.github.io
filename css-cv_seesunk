@@ -1,0 +1,128 @@
+ {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+img{
+    vertical-align: middle;
+    border-style:none ;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+i {
+    color: #009688;
+    font-size: 18px !important;
+    margin-right: 16px !important;
+
+}
+h2{
+    display: block;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 30px;
+    color: #757575;
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+    box-sizing: inherit;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+h5{
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 18px !important;
+    opacity: 0.60;
+}
+h6{
+    color: #009688;
+    font-size: 14px !important;
+}
+.container{
+    margin-top: 16px !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+.grid{
+    display: flex;
+}
+.left{
+   padding: 0 8px;
+   width: 33.3333%;
+}
+.content-left{
+    
+    color: #757575;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2),0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.right{
+    width: 66.66666%;
+    padding: 0 8px;
+}
+.worker{
+    background-color: #fff !important;
+    color: #757575;
+    margin-bottom: 16px !important;
+    box-shadow:0 4px 10px 0 rgba(0, 0, 0, 0.2),0 4px 20px 0 rgba(0, 0, 0, 0.19) ;
+    padding: 0.01em 16px;
+    box-sizing: inherit;
+}
+.education{
+    background-color: #fff !important;
+    color: #757575;
+    margin-bottom: 16px !important;
+    box-shadow:0 4px 10px 0 rgba(0, 0, 0, 0.2),0 4px 20px 0 rgba(0, 0, 0, 0.19) ;
+    padding: 0.01em 16px;
+    box-sizing: inherit;
+}
+.avatar{
+    position: relative;
+}
+
+.avatar .username{
+    position: absolute;
+    margin-left: 5px !important;
+    margin-top: 5px !important;
+    left: 0;
+    top: 0 ;
+    padding: 0.01em 16px ;
+}
+.information{
+    padding: 0.01em 16px;
+}
+.max-skill{
+    box-sizing: inherit;
+    background-color: #f1f1f1!important;
+    border-radius: 16px;
+    font-size: 12px !important;
+}
+.level-skill{
+    color: #fff !important;
+    background-color: #009688 !important;
+    text-align: center;
+    padding: 0.01em 16px;
+    border-radius: 16px;
+}
+footer{
+    color: #fff;
+    background-color: #009688;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
